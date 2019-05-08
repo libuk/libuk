@@ -1,20 +1,34 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <Helmet>
+      <link
+        href="https://fonts.googleapis.com/css?family=Ubuntu:400,700"
+        rel="stylesheet"
+      />
+    </Helmet>
+    <div class="header">
+      <h1 class="header-title">Daniel Liburd</h1>
+      <p class="header-desc">engineer @ yld</p>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div class="links">
+      <div class="link-item-wrapper">
+        <a class="link-item" href="https://twitter.com/libuk_" target="_blank">
+          tweets
+        </a>
+      </div>
+      <div class="link-item-wrapper">
+        <a class="link-item" href="https://github.com/libuk" target="_blank">
+          code
+        </a>
+      </div>
+    </div>
   </Layout>
 )
 
