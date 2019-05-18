@@ -360,9 +360,11 @@ textarea {
     padding: 0.2em 0;
 }
 
+/* Author styles */
+
 body {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1.3rem;
+  font-size: calc(16px + 1vw);
   max-width: 500px;
   margin: 2rem auto;
   width: 100%;
@@ -374,8 +376,13 @@ body {
 }
 
 .header-title {
-  font-size: 2rem;
+  font-size: calc(1.5rem + 1vw);
   font-weight: 700;
+}
+
+.header-desc,
+.link-item {
+  font-size: calc(.8rem + 1vw);
 }
 
 .header-desc {
