@@ -25,10 +25,11 @@ It will take in a `message` parameter.
 const playerOne = 'Temi';
 
 function welcomeMessage(message) {
-  return \`Hi ${playerOne}, ${message}\`
+  return `Hi ${playerOne}, ${message}`
 };
 
-welcomeMessage('welcome to our game.') // 'Hi Temi, welcome to our game.'
+welcomeMessage('welcome to our game.')
+// 'Hi Temi, welcome to our game.'
 ```
 
 In this case our return value is the string `Hi Temi, welcome to our game.`, which is fine, it does what we need it to do. But `welcomeMessage` relies on a variable which isn’t directly passed to it as a parameter, the `playerOne` variable. This is a problem because we’re not able to reuse this function elsewhere in our code as it will always point to whatever the `playerOne` variable is:
@@ -37,10 +38,11 @@ In this case our return value is the string `Hi Temi, welcome to our game.`, whi
 const playerOne = 'Leorio';
 
 function welcomeMessage(message) {
-  return \`Hi ${playerOne}, ${message}\`
+  return `Hi ${playerOne}, ${message}`
 };
 
-welcomeMessage('welcome to our game.') // 'Hi Leorio, welcome to our game.'
+welcomeMessage('welcome to our game.')
+// 'Hi Leorio, welcome to our game.'
 
 ```
 
@@ -53,7 +55,7 @@ const playerOne = 'Temi';
 const playerTwo = 'Leorio';
 
 function welcomeMessage(user, message) {
-  return \`Hi ${user}, ${message}\`
+  return `Hi ${user}, ${message}`
 };
 
 const message = 'welcome to our game.';
@@ -92,7 +94,7 @@ increasePowerLvl(powerLvl);
 
 ```
 
-If we were to log out the value of \`powerLvl\` before and after we call \`increasePowerLvl\` , we’d get two different results:
+If we were to log out the value of `powerLvl` before and after we call `increasePowerLvl` , we’d get two different results:
 
 ```javascript
 let powerLvl = 8999;
