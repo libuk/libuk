@@ -8,9 +8,7 @@ Functional programming has increased in popularity the last couple years and one
 A quick search will give us this definition from [Wikipedia](https://en.wikipedia.org/wiki/Pure_function):
 
 > In computer programming, a pure function is a function that has the following properties:
-
 > * Its return value depends only on its parameters and not on any internal or external state (such as local static variables, non-local variables or inputs from I/O devices).
-
 > * Its evaluation has no side effect (such as mutation of local static variables or non-local variables, or performing I/O operations).
 
 Let’s look at a couple of examples and find out how pure functions can benefit our code.
