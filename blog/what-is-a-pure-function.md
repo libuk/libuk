@@ -1,5 +1,5 @@
 ---
-path: what-is-a-pure-function
+path: /what-is-a-pure-function
 date: 2019-05-18T15:02:22.784Z
 title: What is a pure function?
 ---
