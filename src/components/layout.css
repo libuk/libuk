@@ -519,7 +519,36 @@ body {
 }
 
 .blog-post-content blockquote {
-  background-color: #333;
+  border-left: 5px solid #f08d49;
+  padding-left: 2em;
+  padding-right: 1em;
+  background-color: #f3f3f3;
+  color: #de996a;
+  font-size: .8em;
+}
+
+.blog-post-content blockquote:first-of-type {
+  margin-top: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+.blog-post-content blockquote:last-of-type {
+  margin-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+}
+
+.blog-post-content blockquote p {
+  margin-top: 0;
+}
+
+.blog-post-content blockquote ul {
+  padding-left: 2em;
+}
+
+.blog-post-content blockquote li {
+  list-style-type: circle;
 }
 
 .blog-post-content pre {
