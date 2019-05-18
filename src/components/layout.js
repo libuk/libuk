@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Header from "./header"
 import "./layout.css"
@@ -33,6 +34,12 @@ const Layout = ({ children }) => (
             paddingTop: 0,
           }}
         >
+          <Helmet>
+            <link
+              href="https://fonts.googleapis.com/css?family=Bitter:400,700"
+              rel="stylesheet"
+            />
+          </Helmet>
           <main>{children}</main>
         </div>
       </>
