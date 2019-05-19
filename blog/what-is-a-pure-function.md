@@ -78,7 +78,7 @@ it('welcomeMessage returns given name and message', () => {
 
 ### Its evaluation has no side effect such as mutation of variables
 
-Direct mutation of a variable is a feature of an impure function. For example, in the source code for our game we have a function that increases a player’s power level:
+Direct mutation (altering) of a variable is a feature of an impure function. For example, in the source code for our game we have a function that increases a player’s power level:
 
 ```javascript
 
