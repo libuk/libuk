@@ -465,8 +465,19 @@ body {
   padding: 1rem;
 }
 
+/*
+ * Post list
+ */
+
+.post-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
 .header {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .header-title {
@@ -537,7 +548,7 @@ body {
 
 .blog-post-content a:hover,
 .blog-post-content a:focus {
-  background-color: #f08d49;;
+  background-color: #f08d49;
 }
 
 .blog-post-content blockquote {
@@ -546,7 +557,7 @@ body {
   padding-right: 1em;
   background-color: #f3f3f3;
   color: var(--color-secondary);
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .blog-post-content blockquote:first-of-type {
