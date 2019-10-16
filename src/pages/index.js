@@ -27,7 +27,7 @@ function IndexPage() {
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <div class="header">
         <h1 class="header-title">Daniel Liburd</h1>
-        <p class="header-desc">engineer @ yld</p>
+        <p class="header-desc">contract software engineer</p>
       </div>
       <ul class="post-list">
         {allMarkdownRemark.edges.map(({ node }) => (
