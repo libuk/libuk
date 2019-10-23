@@ -5,9 +5,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 function IndexPage() {
-  const { allMarkdownRemark } = useStaticQuery(
+  const { allMarkdownRemark, site } = useStaticQuery(
     graphql`
       query {
+        site {
+          siteMetadata {
+            description
+          }
+        }
         allMarkdownRemark {
           edges {
             node {
@@ -22,12 +27,13 @@ function IndexPage() {
       }
     `
   )
+
   return (
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
       <div class="header">
         <h1 class="header-title">Daniel Liburd</h1>
-        <p class="header-desc">contract software engineer</p>
+        <p class="header-desc">{site.siteMetadata.description}</p>
       </div>
       <ul class="post-list">
         {allMarkdownRemark.edges.map(({ node }) => (
