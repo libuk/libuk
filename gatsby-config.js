@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `libuk`,
-    description: `Contract software engineer with over 6 years of experience building and maintaining JavaScript applications. Comfortable in cross-functional or all engineering teams.`,
+    description: `I write about software engineering and any other useless things I may think about`,
     author: `@libuk_`,
   },
   plugins: [
