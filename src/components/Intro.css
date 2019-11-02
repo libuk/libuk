@@ -1,0 +1,52 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.intro-details__name {
+  font-size: calc(1.5rem + 1vw);
+  font-weight: 700;
+  font-family: "Inter";
+}
+
+.intro-details__description {
+  margin-top: 0.8rem;
+  font-size: 18px;
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+}
+
+.intro-pic {
+  max-width: 150px;
+  width: 100%;
+}
+
+.intro-details {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .intro-details__description {
+    font-size: 24px;
+  }
+
+  .intro {
+    flex-direction: row;
+  }
+
+  .intro-pic {
+    width: 40%;
+  }
+
+  .intro-details {
+    width: 60%;
+    margin-left: 1rem;
+    margin-top: 0;
+    text-align: left;
+  }
+}

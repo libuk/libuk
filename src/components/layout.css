@@ -443,8 +443,8 @@ textarea {
 /* Author styles */
 :root {
   --color-primary: #f08d49;
-  --color-link: #0000ee;
-  --font-header: "Domine", serif;
+  --color-link: #973bec;
+  --font-header: "Inter", sans-serif;
   --font-text: "Roboto", sans-serif;
 }
 
@@ -493,29 +493,11 @@ body {
 }
 
 .post-list__item + .post-list__item {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
-.header {
-  margin-bottom: 2rem;
-}
-
-.header-title {
-  font-size: calc(1.5rem + 1vw);
-  font-weight: 700;
-  font-family: var(--font-header);
-}
-
-.header-desc,
 .link-item {
   font-size: calc(0.8rem + 1vw);
-}
-
-.header-desc {
-  margin-top: 0.8rem;
-}
-
-.link-item {
   color: #0d9263;
 }
 

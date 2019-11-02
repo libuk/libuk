@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import Intro from "../components/Intro"
 import SEO from "../components/seo"
 
 function IndexPage() {
@@ -31,10 +32,7 @@ function IndexPage() {
   return (
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-      <div class="header">
-        <h1 class="header-title">Daniel Liburd</h1>
-        <p class="header-desc">{site.siteMetadata.description}</p>
-      </div>
+      <Intro />
       <ul class="post-list">
         {allMarkdownRemark.edges.map(({ node }) => (
           <li class="post-list__item">
