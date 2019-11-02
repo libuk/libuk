@@ -8,8 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import { Helmet } from "react-helmet"
 
+import "../fonts/font-face.css"
 import "./layout.css"
 
 const Layout = ({ children }) => (
@@ -26,12 +26,6 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <div>
-          <Helmet>
-            <link
-              href="https://fonts.googleapis.com/css?family=Domine:700|Roboto:400,700&display=swap"
-              rel="stylesheet"
-            />
-          </Helmet>
           <main>{children}</main>
         </div>
       </>
