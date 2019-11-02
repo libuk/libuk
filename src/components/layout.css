@@ -455,10 +455,7 @@ html {
 a,
 a:visited {
   color: var(--color-link);
-}
-
-a:focus {
-  background-color: yellow;
+  text-decoration: none;
 }
 
 @media (min-width: 760px) {
@@ -479,35 +476,6 @@ body {
   margin: 2rem auto;
   width: 90vw;
   padding: 1rem;
-}
-
-/*
- * Post list
- */
-
-.post-list__item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1rem;
-}
-
-.post-list__item + .post-list__item {
-  margin-top: 0.5rem;
-}
-
-.link-item {
-  font-size: calc(0.8rem + 1vw);
-  color: #0d9263;
-}
-
-.link-item:hover,
-.link-item:focus {
-  background-color: yellow;
-}
-
-.link-item-wrapper + .link-item-wrapper {
-  margin-top: 0.3rem;
 }
 
 /*
