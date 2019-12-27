@@ -445,7 +445,7 @@ textarea {
   --color-primary: #f08d49;
   --color-link: #973bec;
   --font-header: "Inter", sans-serif;
-  --font-text: "Roboto", sans-serif;
+  --font-text: "Inter", sans-serif;
 }
 
 html {
@@ -472,6 +472,7 @@ a:visited {
 
 body {
   font-family: var(--font-text);
+  font-weight: 200;
   max-width: 800px;
   margin: 2rem auto;
   width: 90vw;
@@ -515,7 +516,7 @@ body {
 
 .blog-post-content p {
   margin-top: 1em;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .blog-post-content blockquote {
