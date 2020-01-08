@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+https://www.danielliburd.com/* https://libuk.io/:splat 301!
+https://danielliburd.com/* https://libuk.io/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://nostalgic-ritchie-f3e90f.netlify.com/* https://libuk.io/:splat 301!
