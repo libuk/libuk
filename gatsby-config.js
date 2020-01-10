@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: `libuk`,
-    description: `software engineer`,
+    description: `Thoughts on software engineering and other profound time sinks`,
     author: `@libuk_`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

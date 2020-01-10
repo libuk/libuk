@@ -1,0 +1,55 @@
+/* inter - light */
+@font-face {
+  font-family: "Inter";
+  font-weight: 200;
+  font-style: normal;
+  src: url("./files/Inter-Light-BETA.woff2") format("woff2");
+}
+
+/* inter extra - medium */
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  src: url("./files/Inter-Medium.woff2") format("woff2");
+}
+
+/* inter - bold */
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  font-style: normal;
+  src: url("./files/Inter-Bold.woff2") format("woff2");
+}
+
+/* inter - extra bold */
+@font-face {
+  font-family: "Inter";
+  font-weight: 800;
+  font-style: normal;
+  src: url("./files/Inter-ExtraBold.woff2") format("woff2");
+}
+
+/* source sans pro - regular */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-style: normal;
+  src: url("./files/SourceSansPro-Regular.ttf") format("woff2");
+}
+
+/* source sans pro - italic */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-style: italic;
+  src: url("./files/SourceSansPro-Italic.ttf") format("woff2");
+}
+
+/* source sans pro - bold */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-style: normal;
+  src: url("./files/SourceSansPro-Bold.ttf") format("woff2");
+}

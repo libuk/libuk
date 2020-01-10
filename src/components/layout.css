@@ -1,3 +1,10 @@
+:root {
+  --color-primary: #f08d49;
+  --color-link: #973bec;
+  --font-header: "Inter", sans-serif;
+  --font-text: "Inter", sans-serif;
+}
+
 html,
 body,
 div,
@@ -108,7 +115,7 @@ section {
 }
 
 body {
-  line-height: 1;
+  line-height: 1.3;
 }
 
 ol,
@@ -441,13 +448,6 @@ textarea {
 }
 
 /* Author styles */
-:root {
-  --color-primary: #f08d49;
-  --color-link: #0000ee;
-  --font-header: "Domine", serif;
-  --font-text: "Roboto", sans-serif;
-}
-
 html {
   font-size: 17px;
 }
@@ -455,10 +455,7 @@ html {
 a,
 a:visited {
   color: var(--color-link);
-}
-
-a:focus {
-  background-color: yellow;
+  text-decoration: none;
 }
 
 @media (min-width: 760px) {
@@ -474,58 +471,14 @@ a:focus {
 }
 
 body {
+  box-sizing: border-box;
   font-family: var(--font-text);
+  font-weight: 200;
   max-width: 800px;
   margin: 2rem auto;
-  width: 90vw;
+  width: 100%;
   padding: 1rem;
-}
-
-/*
- * Post list
- */
-
-.post-list__item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 1rem;
-}
-
-.post-list__item + .post-list__item {
-  margin-top: .5rem;
-}
-
-.header {
-  margin-bottom: 2rem;
-}
-
-.header-title {
-  font-size: calc(1.5rem + 1vw);
-  font-weight: 700;
-  font-family: var(--font-header);
-}
-
-.header-desc,
-.link-item {
-  font-size: calc(0.8rem + 1vw);
-}
-
-.header-desc {
-  margin-top: 0.8rem;
-}
-
-.link-item {
-  color: #0d9263;
-}
-
-.link-item:hover,
-.link-item:focus {
-  background-color: yellow;
-}
-
-.link-item-wrapper + .link-item-wrapper {
-  margin-top: 0.3rem;
+  background-color: #e5b8f9;
 }
 
 /*
@@ -565,7 +518,7 @@ body {
 
 .blog-post-content p {
   margin-top: 1em;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .blog-post-content blockquote {

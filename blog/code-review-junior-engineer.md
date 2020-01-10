@@ -2,14 +2,16 @@
 path: /code-review-junior-engineer
 date: 2019-08-29T15:02:22.784Z
 title: Reviewing code as a junior engineer
+excerpt: As a new engineer you may feel limited in your code review contributions. Here are some things to focus on.
 ---
+
 Over the last few years, we've seen an influx of junior engineers in the tech industry. A lot of advice has been given regarding interviewing for a first role, but I want to touch on something that I don't see talked about that often; reviewing code as a junior engineer.
 
 When I was a junior, it was difficult enough getting my own code to work so I definitely understand the fear of being dropped into a new codebase as someone just starting out. I do think, however, that my experience could have been made easier had I received more guidance on the importance of peer review.
 
 ### Learning how to deal with criticism
 
-As a junior, I was very protective over my code. I consider myself to be a perfectionist, which roughly translates to "making mistakes scares the shit out of me". I would analyse code over and over again, trying to put off the inevitable  opening of a pull request, desperately trying to ensure there were no issues that anybody could point out. But there **were** issues, there were almost always issues. And it's to be expected as I was starting out, still learning the codebase and even the syntax of the language (JavaScript). And that's to say nothing of trying to understand the actual business value of the feature/bugfix I was working on.
+As a junior, I was very protective over my code. I consider myself to be a perfectionist, which roughly translates to "making mistakes scares the shit out of me". I would analyse code over and over again, trying to put off the inevitable opening of a pull request, desperately trying to ensure there were no issues that anybody could point out. But there **were** issues, there were almost always issues. And it's to be expected as I was starting out, still learning the codebase and even the syntax of the language (JavaScript). And that's to say nothing of trying to understand the actual business value of the feature/bugfix I was working on.
 
 The feeling is understandable, but if you're in the right team, code reviews can be a great environment for levelling up. Try to remember that you are not the code you write. It isn't easy, and when people point out your mistakes to you it may take a while until you stop feeling that sting of frustration. But try to keep a healthy perspective, this is the path of the engineer and the more distance you can put between your ego and your code, the quicker you'll see the value of getting more eyes reviewing your work.
 
