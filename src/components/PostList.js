@@ -21,6 +21,7 @@ const PostList = () => {
                 title
                 path
                 date
+                excerpt
               }
             }
           }
@@ -35,9 +36,11 @@ const PostList = () => {
         <a class="post-list__link" href={node.frontmatter.path}>
           <article class="post-list__item">
             <h2 class="post-list__title">{node.frontmatter.title}</h2>
-            <small class="post-list__date">
+            <p class="post-list__excerpt">{node.frontmatter.excerpt}</p>
+            <span class="post-list__cta">Read now ></span>
+            {/* <small class="post-list__date">
               {getDate(node.frontmatter.date)}
-            </small>
+            </small> */}
           </article>
         </a>
       ))}
