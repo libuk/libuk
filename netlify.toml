@@ -1,0 +1,20 @@
+[[redirects]]
+  from = "https://www.danielliburd.com/*"
+  to = "https://libuk.io"
+  status = 301
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://danielliburd.com/*"
+  to = "https://libuk.io"
+  status = 301
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://nostalgic-ritchie-f3e90f.netlify.com"
+  to = "https://libuk.io"
+  status = 301
+  force = true
+  headers = {X-From = "Netlify"}
