@@ -44,7 +44,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-fathom",
       options: {
-        siteId: "OGXLKKBT",
+        siteId: "JKDIKWBU",
+        whitelistHostnames: ["libuk.io"],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
