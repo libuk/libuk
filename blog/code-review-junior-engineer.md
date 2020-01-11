@@ -1,7 +1,7 @@
 ---
 path: /code-review-junior-engineer
 date: 2019-08-29T15:02:22.784Z
-title: Reviewing code as a junior engineer
+title: Reviewing code as a junior engineer
 excerpt: As a new engineer you may feel limited in your code review contributions. Here are some things to focus on.
 ---
 
