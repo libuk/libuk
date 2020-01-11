@@ -26,7 +26,12 @@ const ProfileImg = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => (
+      <Img
+        fluid={data.placeholderImage.childImageSharp.fluid}
+        alt="Portrait image of Daniel Liburd"
+      />
+    )}
   />
 )
 export default ProfileImg
