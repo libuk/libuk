@@ -7,8 +7,7 @@ Still a work in progress
 ## Get it running locally
 
 ```
-install -g gatsby-cli
+yarn install
 
-# in the root of this repo
-gatsby develop
+yarn develop
 ```
